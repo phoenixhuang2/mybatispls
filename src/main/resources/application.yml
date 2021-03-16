@@ -1,10 +1,10 @@
 spring:
   datasource:  #配置数据源
    # driver-class-name: com.mysql.cj.jdbc.Driver #spring2.1之后的版本，mysql驱动要用cj.jdbc.Driver
-   # url: jdbc:mysql://8.136.120.114:3306/mybatis_plus?serverTimezone=GMT%2B8  #springboot2.1之后要加时区serverTimezone
-    url: jdbc:p6spy:mysql://8.136.120.114:3306/mybatis_plus?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+   # url: jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8  #springboot2.1之后要加时区serverTimezone
+    url: jdbc:p6spy:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
     username: root
-    password: fengV587$
+    password: 123456
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
   profiles:
     active: dev
